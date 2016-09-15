@@ -1,0 +1,10 @@
+{
+  "name": "lightning-flipclock",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp-uglify": "2.0.0",
+    "gulp-concat": "2.6.0"
+  },
+  "description": "flipclock module for lightning",
+  "author": "DAB"
+}
