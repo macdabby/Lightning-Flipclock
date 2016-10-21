@@ -4,11 +4,11 @@ var concat = require('gulp-concat');
 
 gulp.task('default', function(){
     gulp.src([
-            'FlipClock/compiled/flipclock.css',
+            'FlipClock/dist/flipclock.css',
         ])
         .pipe(gulp.dest('../../css'));
     gulp.src([
-            'FlipClock/compiled/flipclock.min.js',
+            'FlipClock/dist/flipclock.min.js',
         ])
         .pipe(gulp.dest('../../js'));
 });

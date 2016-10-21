@@ -16,4 +16,17 @@ class FlipClock {
         JS::startup('var clock = new FlipClock($("#flipclock"), ' . $start_time . ', ' . json_encode($options) . ');', '/js/flipclock.min.js');
         return '<div id="flipclock"></div>';
     }
+
+    /**
+     * @param $options
+     *   integer start - Starting time in seconds.
+     *   boolean countdown - True to count backwards to 0.
+     *
+     * @param $vars
+     *
+     * @return string
+     */
+    public static function renderMarkup($options, $vars) {
+        return static::render($options);
+    }
 }
